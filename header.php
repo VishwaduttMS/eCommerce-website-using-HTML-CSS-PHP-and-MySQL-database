@@ -1,6 +1,7 @@
 <!-- this code is header navigation bar in website -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
+        <!--To add menu option when screen width is reduced-->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
@@ -11,6 +12,7 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
+                <!--If user is logged in, then header will contain these-->
                 <?php
                 if (isset($_SESSION['email'])) {
                     ?>
