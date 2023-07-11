@@ -41,7 +41,7 @@ if (isset($_SESSION['email'])) {
                 <div class="container"> 
                     <center>
                         <div id="banner_content">
-                            <h1>We sell lifestyle.</h1>
+                            <h1>HOWDY!</h1>
                             <p>Flat 40% OFF on premium brands </p>
                             <br/>
                             <a  href="products.php" class="btn btn-danger btn-lg active">Shop Now</a>
